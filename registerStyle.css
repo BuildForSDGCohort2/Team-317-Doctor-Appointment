@@ -1,57 +1,57 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    padding:   0;
+    margin:    0;
+    box-sizing:   border-box;
 }
 
 
-/* section navigation */
+/*   section navigation   */
 
 .nav-bar {
-    background-color: #4B91F0;
-    display: flex;
-    justify-content: space-between;
+    background-color:   #4b91f0";
+    display:   flex;
+    justify-content:  space-between;
     align-items: center;
-    padding: 15px;
-    position:   relative;
+    padding:   15px;
+    position:    relative;
     border-bottom:   3px solid white;
 }
 
-#nav-toggle {
-    width:   20px;
+#nav-toggle   {
+    width:  20px;
     height:  20px;
-    position:   absolute;
-    right:   5px;
-    top:    20px;
+    position:  absolute;
+    right:  5px;
+    top:  20px;
     /* transform: translate(0, -50%); */
-    display:   none;
+    display:  none;
 }
 
 .toggle {
-    font-size:   20px;
-    color:   #fff;
+    font-size:  20px;
+    color:  #fff;
 }
 
 .nav-logo {
     display:  flex;
     align-items:  center;
-    border-right:   5px solid white;
-    padding-right:   60px;
+    border-right:  5px solid white;
+    padding-right:  60px;
 }
 
 #logo { 
-    width:   59px;
-    height:   58px;
+    width:  59px;
+    height:  58px;
 }
 
 #nav-header {
-    color:   #fff;
-    padding-left:   10px;
+    color:  #fff;
+    padding-left:  10px;
 }
 
 .nav-list { 
     list-style-type:  none;
-    display:   flex;
+    display:  flex;
 }
 
 .nav-list-item {
@@ -62,18 +62,18 @@
 .nav-list-item:nth-child(2),
 .nav-list-item:nth-child(3),
 .nav-list-item:nth-child(4) {
-    border-right:   2px solid #fff;
+    border-right:  2px solid #fff;
 }
 
 .nav-list-link {
-    display:   block;
-    color:   #fff;
-    padding:   1px 20px;
-    text-transform:   uppercase;
-    text-decoration:   none;
-    font-size:   18px;
-    font-family:   Arial, Helvetica, sans-serif;
-    font-weight:   600;
+    display:  block;
+    color:  #fff;
+    padding:  1px 20px;
+    text-transform:  uppercase;
+    text-decoration:  none;
+    font-size:  18px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight:  600;
 }
 
 
