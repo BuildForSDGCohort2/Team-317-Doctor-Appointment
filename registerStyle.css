@@ -8,9 +8,15 @@
 /*   section navigation   */
 
 .nav-bar {
-    background-color:   #4b91f0;
-    display:   flex;
+
+    background-color:  #4b91f0;
+    display:  flex;
     justify-content:  space-between;
+
+    background-color:  #4b91f0;
+    display:  flex;
+    justify-content:  space-between;
+
     align-items: center;
 
     padding:  15px;
