@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* section navigation */
+
+.nav-bar {
+    background-color: #4B91F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    border-bottom: 3px solid white;
+}
+
+#nav-toggle {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    /* transform: translate(0, -50%); */
+    display: none;
+}
+
+.toggle {
+    font-size: 20px;
+    color: #fff;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    border-right: 5px solid white;
+    padding-right: 60px;
+}
+
+#logo {
+    width: 59px;
+    height: 58px;
+}
+
+#nav-header {
+    color: #fff;
+    padding-left: 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-list-item {
+    /* padding: 0 10px; */
+}
+
+.nav-list-item:nth-child(1),
+.nav-list-item:nth-child(2),
+.nav-list-item:nth-child(3),
+.nav-list-item:nth-child(4) {
+    border-right: 2px solid #fff;
+}
+
+.nav-list-link {
+    display: block;
+    color: #fff;
+    padding: 1px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+
+/* Registration page starts*/
+
+.Registration-page {
+    background: url(Rectangle\ 31.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    background-color: #375FED;
+    height: 601px;
+    opacity: 0.8;
+    width: 601px;
+    float: right;
+}
+
+.getstarted>h2 {
+    font-size: 40px;
+    font-family: monospace;
+    color: white;
+    padding-top: 80px;
+    text-align: center;
+    margin-left: -130px;
+}
+
+.getstarted>p {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: -90px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.0;
+    color: white;
+    margin-left: 1px;
+    word-spacing: 5px;
+}
+
+.input-group1>label {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 3.0;
+    color: white;
+    margin-left: 1px;
+    word-spacing: 3px;
+}
+
+.input-control {
+    border: 3px solid white;
+    border-radius: 25px;
+    height: 45px;
+    margin-top: 80px;
+    color: green;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.input {
+    border: 3px solid white;
+    border-radius: 15px;
+    height: 45px;
+    width: 90px;
+    color: #375FED;
+    font-weight: bold;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-color: white;
+}
+
+.inside {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    margin-left: 2px;
+}
+
+#create {
+    margin-right: 5px;
+    margin-bottom: 100px;
+}
+
+
+/* Registration page stops*/
+
+
+/* Footer starts here*/
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(93.73deg, #3D63EC 0%, #2D57EE 100%);
+    margin-top: 600px
+}
+
+footer .footer-item {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+
+footer .footer-item a {
+    color: #f8f8f8;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+footer .footer-item a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer stops here*/
+
+@media only screen and (max-width:768px) {
+    #nav-toggle,
+    .nav-bar {
+        display: block;
+    }
+    .nav-list {
+        display: none;
+        margin-top: 20px;
+    }
+    #toggle-open {
+        display: block;
+    }
+    #toggle-close {
+        display: none;
+    }
+    .nav-list-item {
+        padding: 0;
+        border: none !important;
+    }
+    .nav-list-link {
+        padding: 5px;
+        text-transform: capitalize;
+    }
+    .nav-list-link:hover {
+        background-color: #fff;
+        color: #000;
+    }
+}
