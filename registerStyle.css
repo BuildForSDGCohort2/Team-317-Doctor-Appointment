@@ -77,42 +77,42 @@
 }
 
 
-/* Registration page starts*/
+    /* Registration page starts*/
 
 .Registration-page {
-    background:   url(Rectangle\ 31.png);
+    background:  url(Rectangle\ 31.png);
     background-repeat:  no-repeat;
-    background-size:   cover;
+    background-size:  cover;
 }
 
 .main {
-    background-color:   #375FED;
-    height:   601px;
-    opacity:   0.8;
-    width:   601px;
-    float:   right;
+    background-color:   #375fed;
+    height:  601px;
+    opacity:  0.8;
+    width:  601px;
+    float:  right;
 }
 
 .getstarted>h2 {
-    font-size:    40px;
-    font-family:   monospace;
+    font-size:  40px;
+    font-family:  monospace;
     color: white;
-    padding-top:   80px;
-    text-align:   center;
-    margin-left:  -130px;
+    padding-top:  80px;
+    text-align:  center;
+    margin-left:  130px;
 }
 
 .getstarted>p {
     font-size:  16px;
     font-family:  sans-serif;
-    color:   white;
+    color:  white;
     text-align:  center;
-    margin-left:   -90px;
+    margin-left:  -90px;
 }
 
 label {
-    font-size:   16px;
-    font-weight:   bold;
+    font-size:  16px;
+    font-weight:  bold;
     line-height:   1.0;
     color: white;
     margin-left:   1px;
