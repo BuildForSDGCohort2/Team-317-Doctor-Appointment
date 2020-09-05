@@ -1,57 +1,75 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    padding:  0;
+    margin:   0;
+    box-sizing:   border-box;
 }
 
 
-/* section navigation */
+/*   section navigation   */
 
 .nav-bar {
-    background-color: #4B91F0;
-    display: flex;
-    justify-content: space-between;
+
+    background-color:  #4b91f0;
+    display:  flex;
+    justify-content:  space-between;
+
+    background-color:  #4b91f0;
+    display:  flex;
+    justify-content:  space-between;
+
     align-items: center;
-    padding: 15px;
-    position: relative;
-    border-bottom: 3px solid white;
+
+    padding:  15px;
+    position:  relative;
+    border-bottom:  3px solid white;
+
+
+    padding:  15px;
+    position:  relative;
+    border-bottom:  3px solid white;
+
+    padding:  15px;
+    position:  relative;
+    border-bottom:  3px solid white;
+
+
 }
 
-#nav-toggle {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    right: 5px;
-    top: 20px;
+#nav-toggle   {
+    width:  20px;
+    height:  20px;
+    position:  absolute;
+    right:  5px;
+    top:  20px;
     /* transform: translate(0, -50%); */
-    display: none;
+    display:  none;
 }
 
 .toggle {
-    font-size: 20px;
-    color: #fff;
+    font-size:  20px;
+    color:  #fff;
 }
 
 .nav-logo {
-    display: flex;
-    align-items: center;
-    border-right: 5px solid white;
-    padding-right: 60px;
+    display:  flex;
+    align-items:  center;
+    border-right:  5px solid white;
+    padding-right:  60px;
 }
 
-#logo {
-    width: 59px;
-    height: 58px;
+#logo { 
+    width:  59px;
+    height:  58px;
 }
 
 #nav-header {
-    color: #fff;
-    padding-left: 10px;
+    color:  #fff;
+    padding-left:  10px;
 }
 
-.nav-list {
-    list-style-type: none;
-    display: flex;
+.nav-list { 
+    list-style-type:  none;
+    display:  flex;
 }
 
 .nav-list-item {
@@ -62,70 +80,74 @@
 .nav-list-item:nth-child(2),
 .nav-list-item:nth-child(3),
 .nav-list-item:nth-child(4) {
-    border-right: 2px solid #fff;
+    border-right:  2px solid #fff;
 }
 
 .nav-list-link {
-    display: block;
-    color: #fff;
-    padding: 1px 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    display:  block;
+    color:  #fff;
+    padding:  1px 20px;
+    text-transform:  uppercase;
+    text-decoration:  none;
+    font-size:  18px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight:  600;
 }
 
 
-/* Registration page starts*/
+
+    /*  Registration page starts   */
+
+    /* Registration page starts    */
+
 
 .Registration-page {
-    background: url(Rectangle\ 31.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background:  url(Rectangle\ 31.png);
+    background-repeat:  no-repeat;
+    background-size:  cover;
 }
 
 .main {
-    background-color: #375FED;
-    height: 601px;
-    opacity: 0.8;
-    width: 601px;
-    float: right;
+    background-color:   #375fed;
+    height:  601px;
+    opacity:  0.8;
+    width:  601px;
+    float:  right;
 }
 
 .getstarted>h2 {
-    font-size: 40px;
-    font-family: monospace;
+    font-size:  40px;
+    font-family:  monospace;
     color: white;
-    padding-top: 80px;
-    text-align: center;
-    margin-left: -130px;
+    padding-top:  80px;
+    text-align:  center;
+    margin-left:  130px;
 }
 
 .getstarted>p {
-    font-size: 16px;
-    font-family: sans-serif;
-    color: white;
-    text-align: center;
-    margin-left: -90px;
+    font-size:  16px;
+    font-family:  sans-serif;
+    color:  white;
+    text-align:  center;
+    margin-left:  -90px;
 }
 
 label {
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 1.0;
+    font-size:  16px;
+    font-weight:  bold;
+    line-height:   1.0;
     color: white;
-    margin-left: 1px;
-    word-spacing: 5px;
+    margin-left:   1px;
+    word-spacing:   5px;
 }
 
-.input-group1>label {
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 3.0;
+.input-group1>l  abel {
+    font-size:   16px;
+    font-weight:   bold;
+    line-height:   3.0;
     color: white;
-    margin-left: 1px;
-    word-spacing: 3px;
+    margin-left:   1px;
+    word-spacing:   3px;
 }
 
 .input-control {
